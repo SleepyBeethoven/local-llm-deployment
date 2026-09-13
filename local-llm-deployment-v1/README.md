@@ -94,13 +94,20 @@ local-llm-deployment/
 
 ## Demo Evidence
 
-Real screenshots will be added here to show:
+The screenshot below shows the first successful local run of `qwen3:0.6b` through Ollama on Windows. It captures the model download, the terminal interaction, and the local response workflow in practice.
 
-1. Ollama running locally;
-2. Qwen responding to a prompt;
-3. the model continuing to respond after the internet connection is disabled.
+### Local Qwen Response via Ollama
 
-> Screenshots should be checked for personal or sensitive information before publishing.
+![Qwen local response demo](assets/01-qwen-local-response.png)
+
+What this screenshot demonstrates:
+
+- the model was pulled and loaded locally through Ollama;
+- prompts were submitted from a local PowerShell session;
+- the model returned answers successfully in Chinese;
+- this confirms a working local inference setup rather than a purely theoretical install.
+
+> Additional screenshots can be added later for offline inference verification and model comparison.
 
 ## Key Takeaway
 
