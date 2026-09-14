@@ -88,7 +88,8 @@ local-llm-deployment/
 │   ├── setup-guide.md
 │   └── use-cases.md
 ├── assets/
-│   └── README.md
+│   ├── README.md
+│   └── 01-qwen-local-response.png
 └── .gitignore
 ```
 
